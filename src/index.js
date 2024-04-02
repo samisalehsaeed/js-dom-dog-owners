@@ -5,9 +5,7 @@ const dogsList = document.querySelector('.dogs-list')
 const mainList = document.querySelector('.main')
 
 const addNewDog = document.querySelector('.dogs-list__button--add')
-// console.log(addNewDog)
 addNewDog.addEventListener('click',() => {
-    // console.log('sami')
     mainList.innerHTML = ''
     const dogsCards = document.createElement('section')
     dogsCards.classList = 'main__dog-section'
